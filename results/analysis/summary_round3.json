@@ -1,0 +1,51 @@
+{
+ "position": {
+  "HC": {
+   "n_events": 142,
+   "share_events_last3rd": 0.6267605633802817,
+   "share_events_last3syll": 0.30985915492957744,
+   "share_nuclei_last3syll": 0.061912576458302254,
+   "rate_by_third": {
+    "first": 0.013656387665198238,
+    "last": 0.039732142857142855,
+    "middle": 0.010031919744642043
+   }
+  },
+  "ALS-ND": {
+   "n_events": 545,
+   "share_events_last3rd": 0.41284403669724773,
+   "share_events_last3syll": 0.12477064220183487,
+   "share_nuclei_last3syll": 0.06014933628318584,
+   "rate_by_third": {
+    "first": 0.0569672131147541,
+    "last": 0.09355509355509356,
+    "middle": 0.07582739840804358
+   }
+  },
+  "ALS-D": {
+   "n_events": 346,
+   "share_events_last3rd": 0.430635838150289,
+   "share_events_last3syll": 0.18497109826589594,
+   "share_nuclei_last3syll": 0.11424148606811145,
+   "rate_by_third": {
+    "first": 0.12787488500459981,
+    "last": 0.13669724770642203,
+    "middle": 0.055080721747388414
+   }
+  }
+ },
+ "unflagged_positive_rate": {
+  "HC": 0.05852766346593507,
+  "ALS-ND": 0.07851054284432481,
+  "ALS-D": 0.07212205270457697
+ },
+ "all_nuclei_positive_rate": {
+  "HC": 0.0693719230195435,
+  "ALS-ND": 0.1220962389380531,
+  "ALS-D": 0.1195046439628483
+ },
+ "n_nuclei_total": 17639,
+ "n_nuclei_voiced": 17165,
+ "drop_last": 3,
+ "single_run_share": 0.9157175398633257
+}

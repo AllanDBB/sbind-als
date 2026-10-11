@@ -1,0 +1,199 @@
+{
+ "groups": {
+  "ALS-ND": 53,
+  "HC": 51,
+  "ALS-D": 49
+ },
+ "clinical_columns": {
+  "category": "Category",
+  "age": "Age (years)",
+  "sex": "Sex",
+  "speech": "ALSFRS-R_SpeechSubscore",
+  "salivation": "ALSFRS-R_SalivationSubscore",
+  "swallowing": "ALSFRS-R_SwallowingSubscore",
+  "alsfrs_total": "ALSFRS-R_TotalScore",
+  "fvc": "FVC%",
+  "pumns_bulbar": "PUMNS_BulbarSubscore",
+  "mrc_head": "MRC_HeadMuscles",
+  "onset": "OnsetRegion",
+  "duration": "DiseaseDuration",
+  "progression": "ProgressionRate",
+  "king": "KingClinicalStage",
+  "dyspnea": "ALSFRS-R_DyspneaSubscore",
+  "orthopnea": "ALSFRS-R_OrthopneaSubscore",
+  "breathing": "ALSFRS-R_BreathingInsufficiencySubscore"
+ },
+ "n_features": 39,
+ "top_subclinical": [
+  {
+   "label": "DDK syllable F0 SD (st)",
+   "auc": 0.7,
+   "ci_lo": 0.594,
+   "ci_hi": 0.8,
+   "q": 0.019
+  },
+  {
+   "label": "F0 SD, DDK (st)",
+   "auc": 0.658,
+   "ci_lo": 0.539,
+   "ci_hi": 0.765,
+   "q": 0.11
+  },
+  {
+   "label": "Jitter (PPQ5)",
+   "auc": 0.614,
+   "ci_lo": 0.503,
+   "ci_hi": 0.721,
+   "q": 0.279
+  },
+  {
+   "label": "Voice-break fraction",
+   "auc": 0.613,
+   "ci_lo": 0.502,
+   "ci_hi": 0.722,
+   "q": 0.279
+  },
+  {
+   "label": "Jitter (local)",
+   "auc": 0.612,
+   "ci_lo": 0.502,
+   "ci_hi": 0.72,
+   "q": 0.279
+  },
+  {
+   "label": "Voice breaks (n)",
+   "auc": 0.611,
+   "ci_lo": 0.508,
+   "ci_hi": 0.717,
+   "q": 0.279
+  },
+  {
+   "label": "DDK voiced fraction",
+   "auc": 0.39,
+   "ci_lo": 0.276,
+   "ci_hi": 0.495,
+   "q": 0.279
+  },
+  {
+   "label": "F0 SD, steady (st)",
+   "auc": 0.608,
+   "ci_lo": 0.497,
+   "ci_hi": 0.71,
+   "q": 0.279
+  }
+ ],
+ "tasks": [
+  {
+   "protocol": "/a/ only",
+   "auc_pooled": 0.576,
+   "ci_lo": 0.461,
+   "ci_hi": 0.69,
+   "brier": 0.26
+  },
+  {
+   "protocol": "/e/ only",
+   "auc_pooled": 0.582,
+   "ci_lo": 0.473,
+   "ci_hi": 0.691,
+   "brier": 0.257
+  },
+  {
+   "protocol": "/i/ only",
+   "auc_pooled": 0.592,
+   "ci_lo": 0.478,
+   "ci_hi": 0.703,
+   "brier": 0.255
+  },
+  {
+   "protocol": "/o/ only",
+   "auc_pooled": 0.481,
+   "ci_lo": 0.364,
+   "ci_hi": 0.597,
+   "brier": 0.275
+  },
+  {
+   "protocol": "/u/ only",
+   "auc_pooled": 0.496,
+   "ci_lo": 0.386,
+   "ci_hi": 0.604,
+   "brier": 0.278
+  },
+  {
+   "protocol": "/pa/ only",
+   "auc_pooled": 0.61,
+   "ci_lo": 0.493,
+   "ci_hi": 0.723,
+   "brier": 0.247
+  },
+  {
+   "protocol": "/ta/ only",
+   "auc_pooled": 0.553,
+   "ci_lo": 0.445,
+   "ci_hi": 0.668,
+   "brier": 0.262
+  },
+  {
+   "protocol": "/ka/ only",
+   "auc_pooled": 0.681,
+   "ci_lo": 0.574,
+   "ci_hi": 0.779,
+   "brier": 0.228
+  },
+  {
+   "protocol": "5 vowels (mean)",
+   "auc_pooled": 0.566,
+   "ci_lo": 0.447,
+   "ci_hi": 0.676,
+   "brier": 0.27
+  },
+  {
+   "protocol": "3 DDK (mean)",
+   "auc_pooled": 0.629,
+   "ci_lo": 0.519,
+   "ci_hi": 0.729,
+   "brier": 0.245
+  },
+  {
+   "protocol": "All 8 tasks",
+   "auc_pooled": 0.584,
+   "ci_lo": 0.475,
+   "ci_hi": 0.695,
+   "brier": 0.271
+  },
+  {
+   "protocol": "Phonation only (all tasks)",
+   "auc_pooled": 0.639,
+   "ci_lo": 0.523,
+   "ci_hi": 0.745,
+   "brier": 0.245
+  },
+  {
+   "protocol": "/pa/: syllable F0 SD only",
+   "auc_pooled": 0.661,
+   "ci_lo": 0.557,
+   "ci_hi": 0.767,
+   "brier": 0.228
+  },
+  {
+   "protocol": "/ta/: syllable F0 SD only",
+   "auc_pooled": 0.63,
+   "ci_lo": 0.522,
+   "ci_hi": 0.734,
+   "brier": 0.239
+  },
+  {
+   "protocol": "/ka/: syllable F0 SD only",
+   "auc_pooled": 0.646,
+   "ci_lo": 0.541,
+   "ci_hi": 0.75,
+   "brier": 0.236
+  },
+  {
+   "protocol": "3 DDK: syllable F0 SD only",
+   "auc_pooled": 0.672,
+   "ci_lo": 0.568,
+   "ci_hi": 0.771,
+   "brier": 0.228
+  }
+ ]
+}

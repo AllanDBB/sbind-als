@@ -1,0 +1,76 @@
+{
+ "R3_shr": {
+  "ctrl_nuclei_tested": 3448,
+  "ctrl_above_threshold": 238,
+  "ctrl_fp_rate": 0.06902552204176333,
+  "flagged_nuclei_total": 1033,
+  "genuine_by_SHR": 663,
+  "flagged_down": 807,
+  "flagged_down_genuine": 502,
+  "flagged_up": 226,
+  "shr_flag_median_db": -3.4899471428673894,
+  "shr_down_median_db": -3.561892568733154,
+  "shr_ctrl_median_db": -22.051211404089493,
+  "auc_oct_frac": 0.698340874811463,
+  "p_oct_frac": 0.0004406123564697248,
+  "median_hc_oct_frac": 0.004739336492890996,
+  "median_nd_oct_frac": 0.023556998556998554,
+  "auc_oct_genuine_frac": 0.6868401206636501,
+  "p_oct_genuine_frac": 0.0007867155527424013,
+  "median_hc_oct_genuine_frac": 0.0,
+  "median_nd_oct_genuine_frac": 0.016124871001031993,
+  "auc_oct_spurious_frac": 0.6393288084464555,
+  "p_oct_spurious_frac": 0.008206224967695104,
+  "median_hc_oct_spurious_frac": 0.0,
+  "median_nd_oct_spurious_frac": 0.0076877934272300465,
+  "auc_oct_down_frac": 0.6945701357466063,
+  "p_oct_down_frac": 0.0004977851859378777,
+  "median_hc_oct_down_frac": 0.0034602076124567475,
+  "median_nd_oct_down_frac": 0.012540294048274236,
+  "auc_oct_down_genuine_frac": 0.6625188536953243,
+  "p_oct_down_genuine_frac": 0.0029280373664559395,
+  "median_hc_oct_down_genuine_frac": 0.0,
+  "median_nd_oct_down_genuine_frac": 0.009406465288818229,
+  "auc_oct_down_spurious_frac": 0.6483785822021116,
+  "p_oct_down_spurious_frac": 0.0033729074929185116,
+  "median_hc_oct_down_spurious_frac": 0.0,
+  "median_nd_oct_down_spurious_frac": 0.004311123965149488,
+  "auc_oct_up_frac": 0.5878582202111614,
+  "p_oct_up_frac": 0.04740437329258938,
+  "median_hc_oct_up_frac": 0.0,
+  "median_nd_oct_up_frac": 0.0
+ },
+ "R4_marker_adjusted": {
+  "auc_raw": 0.6996606334841629,
+  "auc_adj_age_sex": 0.7111613876319759,
+  "auc_adj_age_sex_snr_level_rate_nsyll": 0.7484917043740573,
+  "p_adj_full": 1.402103792906042e-05
+ },
+ "R5_repeatability": {
+  "icc21_across_syllables_all": 0.6252149012030725,
+  "icc21_across_syllables_HC": 0.6628666653077262,
+  "n_subjects": 144,
+  "spearman_between_tasks": {
+   "PA-TA": 0.5670475987613511,
+   "PA-KA": 0.6078080697051478,
+   "TA-KA": 0.6478531626339575
+  },
+  "split_half": {
+   "KA": {
+    "spearman_odd_even": 0.7746187292431393,
+    "spearman_brown": 0.8729973559712265,
+    "n": 130
+   },
+   "PA": {
+    "spearman_odd_even": 0.6598504206190858,
+    "spearman_brown": 0.795072149179535,
+    "n": 137
+   },
+   "TA": {
+    "spearman_odd_even": 0.6312009345452505,
+    "spearman_brown": 0.7739094812635305,
+    "n": 135
+   }
+  }
+ }
+}

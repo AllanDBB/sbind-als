@@ -1,0 +1,316 @@
+column,track,unit,scope,description
+A__dur_total,other,,task A,
+A__voiced_dur,respiration,s,task A,total voiced duration
+A__mpt_proxy,respiration,s,task A,longest continuous phonation in the recording (MPT proxy; task asked >=5 s)
+A__steady_dur,other,,task A,
+A__f0_mean,phonation,Hz,task A,"mean fundamental frequency, steady segment"
+A__f0_median,phonation,Hz,task A,"median F0, steady segment"
+A__f0_sd,phonation,Hz,task A,F0 standard deviation (pitch instability)
+A__f0_cv,phonation,ratio,task A,"F0 coefficient of variation (sd/mean, sex-normalised)"
+A__f0_sd_st,phonation,semitones,task A,F0 SD in semitones (sex-normalised)
+A__f0_sd_all,phonation,Hz,task A,F0 SD over all voiced frames of the recording (reference-compatible)
+A__f0_sd_st_all,phonation,semitones,task A,"F0 SD over all voiced frames, semitones"
+A__f0_slope_st,phonation,st/s,task A,F0 drift over the steady segment
+A__f0_tremor_idx,phonation,ratio,task A,share of F0 modulation power in 3-8 Hz (vocal tremor)
+A__f0_tremor_hz,phonation,Hz,task A,dominant F0 modulation frequency in 3-8 Hz
+A__unvoiced_frac_run,phonation,ratio,task A,unvoiced fraction inside the longest phonation (voice breaks)
+A__n_voice_breaks,phonation,count,task A,number of voice breaks inside the longest phonation
+A__jitter_local,phonation,%,task A,cycle-to-cycle period perturbation (Praat local)
+A__jitter_rap,phonation,%,task A,relative average perturbation (3-period)
+A__jitter_ppq5,phonation,%,task A,5-point period perturbation quotient
+A__shimmer_local,phonation,%,task A,cycle-to-cycle amplitude perturbation (Praat local)
+A__shimmer_apq3,phonation,%,task A,3-point amplitude perturbation quotient
+A__shimmer_apq5,phonation,%,task A,5-point amplitude perturbation quotient
+A__shimmer_apq11,phonation,%,task A,11-point amplitude perturbation quotient
+A__hnr,phonation,dB,task A,harmonics-to-noise ratio (breathiness/noise)
+A__cpps,phonation,dB,task A,smoothed cepstral peak prominence (dysphonia severity)
+A__alpha_ratio_db,phonation,dB,task A,energy 1-4 kHz minus 50-1000 Hz (spectral balance; strain/breathiness)
+A__int_mean,other,,task A,
+A__int_sd,phonation,dB,task A,intensity SD over steady segment (loudness instability)
+A__int_slope,respiration,dB/s,task A,intensity decline over the steady segment
+A__int_drop,respiration,dB,task A,intensity change last vs first fifth of segment
+A__int_tremor_idx,phonation,ratio,task A,share of intensity modulation power in 3-8 Hz
+A__int_tremor_hz,phonation,Hz,task A,dominant intensity modulation frequency in 3-8 Hz
+A__f1_med,articulation,Hz,task A,median first formant
+A__f2_med,articulation,Hz,task A,median second formant
+A__f1_iqr,articulation,Hz,task A,F1 interquartile range (formant instability)
+A__f2_iqr,articulation,Hz,task A,F2 interquartile range (formant instability)
+E__dur_total,other,,task E,
+E__voiced_dur,respiration,s,task E,total voiced duration
+E__mpt_proxy,respiration,s,task E,longest continuous phonation in the recording (MPT proxy; task asked >=5 s)
+E__steady_dur,other,,task E,
+E__f0_mean,phonation,Hz,task E,"mean fundamental frequency, steady segment"
+E__f0_median,phonation,Hz,task E,"median F0, steady segment"
+E__f0_sd,phonation,Hz,task E,F0 standard deviation (pitch instability)
+E__f0_cv,phonation,ratio,task E,"F0 coefficient of variation (sd/mean, sex-normalised)"
+E__f0_sd_st,phonation,semitones,task E,F0 SD in semitones (sex-normalised)
+E__f0_sd_all,phonation,Hz,task E,F0 SD over all voiced frames of the recording (reference-compatible)
+E__f0_sd_st_all,phonation,semitones,task E,"F0 SD over all voiced frames, semitones"
+E__f0_slope_st,phonation,st/s,task E,F0 drift over the steady segment
+E__f0_tremor_idx,phonation,ratio,task E,share of F0 modulation power in 3-8 Hz (vocal tremor)
+E__f0_tremor_hz,phonation,Hz,task E,dominant F0 modulation frequency in 3-8 Hz
+E__unvoiced_frac_run,phonation,ratio,task E,unvoiced fraction inside the longest phonation (voice breaks)
+E__n_voice_breaks,phonation,count,task E,number of voice breaks inside the longest phonation
+E__jitter_local,phonation,%,task E,cycle-to-cycle period perturbation (Praat local)
+E__jitter_rap,phonation,%,task E,relative average perturbation (3-period)
+E__jitter_ppq5,phonation,%,task E,5-point period perturbation quotient
+E__shimmer_local,phonation,%,task E,cycle-to-cycle amplitude perturbation (Praat local)
+E__shimmer_apq3,phonation,%,task E,3-point amplitude perturbation quotient
+E__shimmer_apq5,phonation,%,task E,5-point amplitude perturbation quotient
+E__shimmer_apq11,phonation,%,task E,11-point amplitude perturbation quotient
+E__hnr,phonation,dB,task E,harmonics-to-noise ratio (breathiness/noise)
+E__cpps,phonation,dB,task E,smoothed cepstral peak prominence (dysphonia severity)
+E__alpha_ratio_db,phonation,dB,task E,energy 1-4 kHz minus 50-1000 Hz (spectral balance; strain/breathiness)
+E__int_mean,other,,task E,
+E__int_sd,phonation,dB,task E,intensity SD over steady segment (loudness instability)
+E__int_slope,respiration,dB/s,task E,intensity decline over the steady segment
+E__int_drop,respiration,dB,task E,intensity change last vs first fifth of segment
+E__int_tremor_idx,phonation,ratio,task E,share of intensity modulation power in 3-8 Hz
+E__int_tremor_hz,phonation,Hz,task E,dominant intensity modulation frequency in 3-8 Hz
+E__f1_med,articulation,Hz,task E,median first formant
+E__f2_med,articulation,Hz,task E,median second formant
+E__f1_iqr,articulation,Hz,task E,F1 interquartile range (formant instability)
+E__f2_iqr,articulation,Hz,task E,F2 interquartile range (formant instability)
+I__dur_total,other,,task I,
+I__voiced_dur,respiration,s,task I,total voiced duration
+I__mpt_proxy,respiration,s,task I,longest continuous phonation in the recording (MPT proxy; task asked >=5 s)
+I__steady_dur,other,,task I,
+I__f0_mean,phonation,Hz,task I,"mean fundamental frequency, steady segment"
+I__f0_median,phonation,Hz,task I,"median F0, steady segment"
+I__f0_sd,phonation,Hz,task I,F0 standard deviation (pitch instability)
+I__f0_cv,phonation,ratio,task I,"F0 coefficient of variation (sd/mean, sex-normalised)"
+I__f0_sd_st,phonation,semitones,task I,F0 SD in semitones (sex-normalised)
+I__f0_sd_all,phonation,Hz,task I,F0 SD over all voiced frames of the recording (reference-compatible)
+I__f0_sd_st_all,phonation,semitones,task I,"F0 SD over all voiced frames, semitones"
+I__f0_slope_st,phonation,st/s,task I,F0 drift over the steady segment
+I__f0_tremor_idx,phonation,ratio,task I,share of F0 modulation power in 3-8 Hz (vocal tremor)
+I__f0_tremor_hz,phonation,Hz,task I,dominant F0 modulation frequency in 3-8 Hz
+I__unvoiced_frac_run,phonation,ratio,task I,unvoiced fraction inside the longest phonation (voice breaks)
+I__n_voice_breaks,phonation,count,task I,number of voice breaks inside the longest phonation
+I__jitter_local,phonation,%,task I,cycle-to-cycle period perturbation (Praat local)
+I__jitter_rap,phonation,%,task I,relative average perturbation (3-period)
+I__jitter_ppq5,phonation,%,task I,5-point period perturbation quotient
+I__shimmer_local,phonation,%,task I,cycle-to-cycle amplitude perturbation (Praat local)
+I__shimmer_apq3,phonation,%,task I,3-point amplitude perturbation quotient
+I__shimmer_apq5,phonation,%,task I,5-point amplitude perturbation quotient
+I__shimmer_apq11,phonation,%,task I,11-point amplitude perturbation quotient
+I__hnr,phonation,dB,task I,harmonics-to-noise ratio (breathiness/noise)
+I__cpps,phonation,dB,task I,smoothed cepstral peak prominence (dysphonia severity)
+I__alpha_ratio_db,phonation,dB,task I,energy 1-4 kHz minus 50-1000 Hz (spectral balance; strain/breathiness)
+I__int_mean,other,,task I,
+I__int_sd,phonation,dB,task I,intensity SD over steady segment (loudness instability)
+I__int_slope,respiration,dB/s,task I,intensity decline over the steady segment
+I__int_drop,respiration,dB,task I,intensity change last vs first fifth of segment
+I__int_tremor_idx,phonation,ratio,task I,share of intensity modulation power in 3-8 Hz
+I__int_tremor_hz,phonation,Hz,task I,dominant intensity modulation frequency in 3-8 Hz
+I__f1_med,articulation,Hz,task I,median first formant
+I__f2_med,articulation,Hz,task I,median second formant
+I__f1_iqr,articulation,Hz,task I,F1 interquartile range (formant instability)
+I__f2_iqr,articulation,Hz,task I,F2 interquartile range (formant instability)
+O__dur_total,other,,task O,
+O__voiced_dur,respiration,s,task O,total voiced duration
+O__mpt_proxy,respiration,s,task O,longest continuous phonation in the recording (MPT proxy; task asked >=5 s)
+O__steady_dur,other,,task O,
+O__f0_mean,phonation,Hz,task O,"mean fundamental frequency, steady segment"
+O__f0_median,phonation,Hz,task O,"median F0, steady segment"
+O__f0_sd,phonation,Hz,task O,F0 standard deviation (pitch instability)
+O__f0_cv,phonation,ratio,task O,"F0 coefficient of variation (sd/mean, sex-normalised)"
+O__f0_sd_st,phonation,semitones,task O,F0 SD in semitones (sex-normalised)
+O__f0_sd_all,phonation,Hz,task O,F0 SD over all voiced frames of the recording (reference-compatible)
+O__f0_sd_st_all,phonation,semitones,task O,"F0 SD over all voiced frames, semitones"
+O__f0_slope_st,phonation,st/s,task O,F0 drift over the steady segment
+O__f0_tremor_idx,phonation,ratio,task O,share of F0 modulation power in 3-8 Hz (vocal tremor)
+O__f0_tremor_hz,phonation,Hz,task O,dominant F0 modulation frequency in 3-8 Hz
+O__unvoiced_frac_run,phonation,ratio,task O,unvoiced fraction inside the longest phonation (voice breaks)
+O__n_voice_breaks,phonation,count,task O,number of voice breaks inside the longest phonation
+O__jitter_local,phonation,%,task O,cycle-to-cycle period perturbation (Praat local)
+O__jitter_rap,phonation,%,task O,relative average perturbation (3-period)
+O__jitter_ppq5,phonation,%,task O,5-point period perturbation quotient
+O__shimmer_local,phonation,%,task O,cycle-to-cycle amplitude perturbation (Praat local)
+O__shimmer_apq3,phonation,%,task O,3-point amplitude perturbation quotient
+O__shimmer_apq5,phonation,%,task O,5-point amplitude perturbation quotient
+O__shimmer_apq11,phonation,%,task O,11-point amplitude perturbation quotient
+O__hnr,phonation,dB,task O,harmonics-to-noise ratio (breathiness/noise)
+O__cpps,phonation,dB,task O,smoothed cepstral peak prominence (dysphonia severity)
+O__alpha_ratio_db,phonation,dB,task O,energy 1-4 kHz minus 50-1000 Hz (spectral balance; strain/breathiness)
+O__int_mean,other,,task O,
+O__int_sd,phonation,dB,task O,intensity SD over steady segment (loudness instability)
+O__int_slope,respiration,dB/s,task O,intensity decline over the steady segment
+O__int_drop,respiration,dB,task O,intensity change last vs first fifth of segment
+O__int_tremor_idx,phonation,ratio,task O,share of intensity modulation power in 3-8 Hz
+O__int_tremor_hz,phonation,Hz,task O,dominant intensity modulation frequency in 3-8 Hz
+O__f1_med,articulation,Hz,task O,median first formant
+O__f2_med,articulation,Hz,task O,median second formant
+O__f1_iqr,articulation,Hz,task O,F1 interquartile range (formant instability)
+O__f2_iqr,articulation,Hz,task O,F2 interquartile range (formant instability)
+U__dur_total,other,,task U,
+U__voiced_dur,respiration,s,task U,total voiced duration
+U__mpt_proxy,respiration,s,task U,longest continuous phonation in the recording (MPT proxy; task asked >=5 s)
+U__steady_dur,other,,task U,
+U__f0_mean,phonation,Hz,task U,"mean fundamental frequency, steady segment"
+U__f0_median,phonation,Hz,task U,"median F0, steady segment"
+U__f0_sd,phonation,Hz,task U,F0 standard deviation (pitch instability)
+U__f0_cv,phonation,ratio,task U,"F0 coefficient of variation (sd/mean, sex-normalised)"
+U__f0_sd_st,phonation,semitones,task U,F0 SD in semitones (sex-normalised)
+U__f0_sd_all,phonation,Hz,task U,F0 SD over all voiced frames of the recording (reference-compatible)
+U__f0_sd_st_all,phonation,semitones,task U,"F0 SD over all voiced frames, semitones"
+U__f0_slope_st,phonation,st/s,task U,F0 drift over the steady segment
+U__f0_tremor_idx,phonation,ratio,task U,share of F0 modulation power in 3-8 Hz (vocal tremor)
+U__f0_tremor_hz,phonation,Hz,task U,dominant F0 modulation frequency in 3-8 Hz
+U__unvoiced_frac_run,phonation,ratio,task U,unvoiced fraction inside the longest phonation (voice breaks)
+U__n_voice_breaks,phonation,count,task U,number of voice breaks inside the longest phonation
+U__jitter_local,phonation,%,task U,cycle-to-cycle period perturbation (Praat local)
+U__jitter_rap,phonation,%,task U,relative average perturbation (3-period)
+U__jitter_ppq5,phonation,%,task U,5-point period perturbation quotient
+U__shimmer_local,phonation,%,task U,cycle-to-cycle amplitude perturbation (Praat local)
+U__shimmer_apq3,phonation,%,task U,3-point amplitude perturbation quotient
+U__shimmer_apq5,phonation,%,task U,5-point amplitude perturbation quotient
+U__shimmer_apq11,phonation,%,task U,11-point amplitude perturbation quotient
+U__hnr,phonation,dB,task U,harmonics-to-noise ratio (breathiness/noise)
+U__cpps,phonation,dB,task U,smoothed cepstral peak prominence (dysphonia severity)
+U__alpha_ratio_db,phonation,dB,task U,energy 1-4 kHz minus 50-1000 Hz (spectral balance; strain/breathiness)
+U__int_mean,other,,task U,
+U__int_sd,phonation,dB,task U,intensity SD over steady segment (loudness instability)
+U__int_slope,respiration,dB/s,task U,intensity decline over the steady segment
+U__int_drop,respiration,dB,task U,intensity change last vs first fifth of segment
+U__int_tremor_idx,phonation,ratio,task U,share of intensity modulation power in 3-8 Hz
+U__int_tremor_hz,phonation,Hz,task U,dominant intensity modulation frequency in 3-8 Hz
+U__f1_med,articulation,Hz,task U,median first formant
+U__f2_med,articulation,Hz,task U,median second formant
+U__f1_iqr,articulation,Hz,task U,F1 interquartile range (formant instability)
+U__f2_iqr,articulation,Hz,task U,F2 interquartile range (formant instability)
+KA__dur_total,other,,task KA,
+KA__n_syll,respiration,count,task KA,syllables produced in one breath (DDK)
+KA__ddk_span,respiration,s,task KA,duration of the syllable train (one breath)
+KA__ddk_rate,articulation,syll/s,task KA,diadochokinetic rate
+KA__ddk_rate_gross,other,,task KA,
+KA__ioi_mean,articulation,ms,task KA,mean inter-syllable interval
+KA__ioi_sd,other,,task KA,
+KA__ioi_cv,articulation,ratio,task KA,inter-syllable interval CV (rhythm irregularity)
+KA__ioi_rcv,other,,task KA,
+KA__ioi_slope,articulation,ms/syll,task KA,change of interval along the sequence (slowing)
+KA__n_pauses,other,,task KA,
+KA__pause_time_frac,other,,task KA,
+KA__syll_per_run,other,,task KA,
+KA__amp_cv,articulation,ratio,task KA,syllable peak-amplitude CV (irregularity)
+KA__amp_slope_db,respiration,dB/s,task KA,amplitude decay across syllables
+KA__amp_range_db,other,,task KA,
+KA__pause_ratio,respiration,ratio,task KA,proportion of low-energy frames inside the syllable train
+KA__voiced_frac,articulation,ratio,task KA,voiced fraction inside DDK (stop closure / hypernasality proxy)
+KA__f0_mean,phonation,Hz,task KA,"mean fundamental frequency, steady segment"
+KA__f0_sd,phonation,Hz,task KA,F0 standard deviation (pitch instability)
+KA__f0_sd_st_all,phonation,semitones,task KA,"F0 SD over all voiced frames, semitones"
+KA__syl_f0_sd_st,phonation,semitones,task KA,SD of F0 across syllable nuclei in DDK (laryngeal control)
+KA__syl_f0_slope_st,phonation,st/syll,task KA,F0 drift across syllables in DDK
+PA__dur_total,other,,task PA,
+PA__n_syll,respiration,count,task PA,syllables produced in one breath (DDK)
+PA__ddk_span,respiration,s,task PA,duration of the syllable train (one breath)
+PA__ddk_rate,articulation,syll/s,task PA,diadochokinetic rate
+PA__ddk_rate_gross,other,,task PA,
+PA__ioi_mean,articulation,ms,task PA,mean inter-syllable interval
+PA__ioi_sd,other,,task PA,
+PA__ioi_cv,articulation,ratio,task PA,inter-syllable interval CV (rhythm irregularity)
+PA__ioi_rcv,other,,task PA,
+PA__ioi_slope,articulation,ms/syll,task PA,change of interval along the sequence (slowing)
+PA__n_pauses,other,,task PA,
+PA__pause_time_frac,other,,task PA,
+PA__syll_per_run,other,,task PA,
+PA__amp_cv,articulation,ratio,task PA,syllable peak-amplitude CV (irregularity)
+PA__amp_slope_db,respiration,dB/s,task PA,amplitude decay across syllables
+PA__amp_range_db,other,,task PA,
+PA__pause_ratio,respiration,ratio,task PA,proportion of low-energy frames inside the syllable train
+PA__voiced_frac,articulation,ratio,task PA,voiced fraction inside DDK (stop closure / hypernasality proxy)
+PA__f0_mean,phonation,Hz,task PA,"mean fundamental frequency, steady segment"
+PA__f0_sd,phonation,Hz,task PA,F0 standard deviation (pitch instability)
+PA__f0_sd_st_all,phonation,semitones,task PA,"F0 SD over all voiced frames, semitones"
+PA__syl_f0_sd_st,phonation,semitones,task PA,SD of F0 across syllable nuclei in DDK (laryngeal control)
+PA__syl_f0_slope_st,phonation,st/syll,task PA,F0 drift across syllables in DDK
+TA__dur_total,other,,task TA,
+TA__n_syll,respiration,count,task TA,syllables produced in one breath (DDK)
+TA__ddk_span,respiration,s,task TA,duration of the syllable train (one breath)
+TA__ddk_rate,articulation,syll/s,task TA,diadochokinetic rate
+TA__ddk_rate_gross,other,,task TA,
+TA__ioi_mean,articulation,ms,task TA,mean inter-syllable interval
+TA__ioi_sd,other,,task TA,
+TA__ioi_cv,articulation,ratio,task TA,inter-syllable interval CV (rhythm irregularity)
+TA__ioi_rcv,other,,task TA,
+TA__ioi_slope,articulation,ms/syll,task TA,change of interval along the sequence (slowing)
+TA__n_pauses,other,,task TA,
+TA__pause_time_frac,other,,task TA,
+TA__syll_per_run,other,,task TA,
+TA__amp_cv,articulation,ratio,task TA,syllable peak-amplitude CV (irregularity)
+TA__amp_slope_db,respiration,dB/s,task TA,amplitude decay across syllables
+TA__amp_range_db,other,,task TA,
+TA__pause_ratio,respiration,ratio,task TA,proportion of low-energy frames inside the syllable train
+TA__voiced_frac,articulation,ratio,task TA,voiced fraction inside DDK (stop closure / hypernasality proxy)
+TA__f0_mean,phonation,Hz,task TA,"mean fundamental frequency, steady segment"
+TA__f0_sd,phonation,Hz,task TA,F0 standard deviation (pitch instability)
+TA__f0_sd_st_all,phonation,semitones,task TA,"F0 SD over all voiced frames, semitones"
+TA__syl_f0_sd_st,phonation,semitones,task TA,SD of F0 across syllable nuclei in DDK (laryngeal control)
+TA__syl_f0_slope_st,phonation,st/syll,task TA,F0 drift across syllables in DDK
+n_vowel_files,other,,,
+V__dur_total,other,,mean over vowels,
+V__voiced_dur,respiration,s,mean over vowels,total voiced duration
+V__mpt_proxy,respiration,s,mean over vowels,longest continuous phonation in the recording (MPT proxy; task asked >=5 s)
+V__steady_dur,other,,mean over vowels,
+V__f0_mean,phonation,Hz,mean over vowels,"mean fundamental frequency, steady segment"
+V__f0_median,phonation,Hz,mean over vowels,"median F0, steady segment"
+V__f0_sd,phonation,Hz,mean over vowels,F0 standard deviation (pitch instability)
+V__f0_cv,phonation,ratio,mean over vowels,"F0 coefficient of variation (sd/mean, sex-normalised)"
+V__f0_sd_st,phonation,semitones,mean over vowels,F0 SD in semitones (sex-normalised)
+V__f0_sd_all,phonation,Hz,mean over vowels,F0 SD over all voiced frames of the recording (reference-compatible)
+V__f0_sd_st_all,phonation,semitones,mean over vowels,"F0 SD over all voiced frames, semitones"
+V__f0_slope_st,phonation,st/s,mean over vowels,F0 drift over the steady segment
+V__f0_tremor_idx,phonation,ratio,mean over vowels,share of F0 modulation power in 3-8 Hz (vocal tremor)
+V__f0_tremor_hz,phonation,Hz,mean over vowels,dominant F0 modulation frequency in 3-8 Hz
+V__unvoiced_frac_run,phonation,ratio,mean over vowels,unvoiced fraction inside the longest phonation (voice breaks)
+V__n_voice_breaks,phonation,count,mean over vowels,number of voice breaks inside the longest phonation
+V__jitter_local,phonation,%,mean over vowels,cycle-to-cycle period perturbation (Praat local)
+V__jitter_rap,phonation,%,mean over vowels,relative average perturbation (3-period)
+V__jitter_ppq5,phonation,%,mean over vowels,5-point period perturbation quotient
+V__shimmer_local,phonation,%,mean over vowels,cycle-to-cycle amplitude perturbation (Praat local)
+V__shimmer_apq3,phonation,%,mean over vowels,3-point amplitude perturbation quotient
+V__shimmer_apq5,phonation,%,mean over vowels,5-point amplitude perturbation quotient
+V__shimmer_apq11,phonation,%,mean over vowels,11-point amplitude perturbation quotient
+V__hnr,phonation,dB,mean over vowels,harmonics-to-noise ratio (breathiness/noise)
+V__cpps,phonation,dB,mean over vowels,smoothed cepstral peak prominence (dysphonia severity)
+V__alpha_ratio_db,phonation,dB,mean over vowels,energy 1-4 kHz minus 50-1000 Hz (spectral balance; strain/breathiness)
+V__int_mean,other,,mean over vowels,
+V__int_sd,phonation,dB,mean over vowels,intensity SD over steady segment (loudness instability)
+V__int_slope,respiration,dB/s,mean over vowels,intensity decline over the steady segment
+V__int_drop,respiration,dB,mean over vowels,intensity change last vs first fifth of segment
+V__int_tremor_idx,phonation,ratio,mean over vowels,share of intensity modulation power in 3-8 Hz
+V__int_tremor_hz,phonation,Hz,mean over vowels,dominant intensity modulation frequency in 3-8 Hz
+V__f1_med,articulation,Hz,mean over vowels,median first formant
+V__f2_med,articulation,Hz,mean over vowels,median second formant
+V__f1_iqr,articulation,Hz,mean over vowels,F1 interquartile range (formant instability)
+V__f2_iqr,articulation,Hz,mean over vowels,F2 interquartile range (formant instability)
+V__mpt_proxy_max,other,,mean over vowels,
+n_ddk_files,other,,,
+DDK__dur_total,other,,"mean over /pa/,/ta/,/ka/",
+DDK__n_syll,respiration,count,"mean over /pa/,/ta/,/ka/",syllables produced in one breath (DDK)
+DDK__ddk_span,respiration,s,"mean over /pa/,/ta/,/ka/",duration of the syllable train (one breath)
+DDK__ddk_rate,articulation,syll/s,"mean over /pa/,/ta/,/ka/",diadochokinetic rate
+DDK__ddk_rate_gross,other,,"mean over /pa/,/ta/,/ka/",
+DDK__ioi_mean,articulation,ms,"mean over /pa/,/ta/,/ka/",mean inter-syllable interval
+DDK__ioi_sd,other,,"mean over /pa/,/ta/,/ka/",
+DDK__ioi_cv,articulation,ratio,"mean over /pa/,/ta/,/ka/",inter-syllable interval CV (rhythm irregularity)
+DDK__ioi_rcv,other,,"mean over /pa/,/ta/,/ka/",
+DDK__ioi_slope,articulation,ms/syll,"mean over /pa/,/ta/,/ka/",change of interval along the sequence (slowing)
+DDK__n_pauses,other,,"mean over /pa/,/ta/,/ka/",
+DDK__pause_time_frac,other,,"mean over /pa/,/ta/,/ka/",
+DDK__syll_per_run,other,,"mean over /pa/,/ta/,/ka/",
+DDK__amp_cv,articulation,ratio,"mean over /pa/,/ta/,/ka/",syllable peak-amplitude CV (irregularity)
+DDK__amp_slope_db,respiration,dB/s,"mean over /pa/,/ta/,/ka/",amplitude decay across syllables
+DDK__amp_range_db,other,,"mean over /pa/,/ta/,/ka/",
+DDK__pause_ratio,respiration,ratio,"mean over /pa/,/ta/,/ka/",proportion of low-energy frames inside the syllable train
+DDK__voiced_frac,articulation,ratio,"mean over /pa/,/ta/,/ka/",voiced fraction inside DDK (stop closure / hypernasality proxy)
+DDK__f0_mean,phonation,Hz,"mean over /pa/,/ta/,/ka/","mean fundamental frequency, steady segment"
+DDK__f0_sd,phonation,Hz,"mean over /pa/,/ta/,/ka/",F0 standard deviation (pitch instability)
+DDK__f0_sd_st_all,phonation,semitones,"mean over /pa/,/ta/,/ka/","F0 SD over all voiced frames, semitones"
+DDK__syl_f0_sd_st,phonation,semitones,"mean over /pa/,/ta/,/ka/",SD of F0 across syllable nuclei in DDK (laryngeal control)
+DDK__syl_f0_slope_st,phonation,st/syll,"mean over /pa/,/ta/,/ka/",F0 drift across syllables in DDK
+ART__vsa,articulation,Hz^2,from vowel formants,"vowel space area from /a/,/i/,/u/ (tongue range)"
+ART__fcr,articulation,ratio,from vowel formants,formant centralisation ratio (higher = more centralised)
+ART__vai,articulation,ratio,from vowel formants,vowel articulation index (1/FCR)
+ART__f2_ratio,articulation,ratio,from vowel formants,"F2(i)/F2(u), tongue front-back range"
